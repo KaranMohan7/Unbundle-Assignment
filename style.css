@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway";
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #fff1e6;
+  width: 100%;
+  height: 6rem;
+}
+.logo {
+  text-align: center;
+}
+.headingnav {
+  color: #e9811f;
+  font-weight: 500;
+  font-size: 2.8rem;
+}
+.spannav {
+  color: black;
+}
+.sub-span {
+  width: 100%;
+  font-size: 13px;
+  font-weight: bold;
+}
+.nav-items {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-left: 5px;
+  font-size: 15px;
+}
+.burger{
+    display: none;
+}
+.span-css {
+  margin-left: 7px;
+  font-size: smaller;
+  color: #f8943f;
+}
+.nav-head {
+  font-weight: 500;
+}
+.symbol {
+  font-weight: 100;
+}
+.btn-div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.appoint-btn {
+  background-color: #f8943f;
+  width: 240px;
+  padding: 18px 24px 18px 24px;
+  font-weight: 100;
+  font-size: 18px;
+  border-radius: 50px;
+  color: white;
+  font-weight: 500;
+
+  outline: none;
+  border: none;
+}
+.help-btn {
+  font-weight: 100;
+  width: 140px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 18px;
+  border-radius: 70px;
+  background-color: transparent;
+  border: 2px;
+  border-color: #f8943f;
+  outline: none;
+  font-weight: 500;
+  border: 2px solid #fbbe9c;
+}
+.span2-css {
+  margin-left: 7px;
+  font-weight: 100;
+}
+.header {
+    position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 37rem;
+  background-color: #b5c1a6;
+  padding-left: 40px;
+}
+ 
+
+.header-div-1 {
+  margin-bottom: 18px;
+  font-size: 63px;
+  font-weight: bolder;
+}
+.header-div-2 {
+  margin-bottom: 20px;
+  font-size: 38px;
+  font-weight: 400;
+  color: #525252;
+}
+.header-btn {
+  width: 18.5rem;
+  padding: 16px;
+  border-radius: 8rem;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  background-color: #f8943f;
+  color: white;
+}
+
+.image-1{
+    overflow: hidden;
+   width: 31rem;
+   position: relative;
+   top: 38px;
+
+}
+.below-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.below-header-child{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.below-text{
+    font-size: 20px;
+}
+.image-2{
+    width: 80px;
+
+}
+.image-3{
+    width: 40px;
+}
+.vertical-line {
+    width: 2px;           
+    height: 100px;       
+    background-color:#FADABE ;
+  }
+
+  .dropdown {
+    position: relative;
+    width: 300px;
+  }
+  
+  .dropdown select {
+    width: 100%;
+      padding: 16px 50px 16px 20px;
+    font-size: 16px;
+    border-radius: 25px;
+      border: 1px solid #ccc;
+     outline: none;
+    appearance: none;
+     -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  
+  .dropdown select option {
+    font-size: 16px;
+  }
+  
+  .dropdown i {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+      transform: translateY(-50%);
+    pointer-events: none;
+    color: #e9811f; 
+  }
+  .end-btn{
+    color: white;
+    width: 300px;
+    padding: 16px 50px 16px 20px;
+    outline: none;
+    font-size: 16px;
+    background-color: #f8943f;
+    border: none;
+    border-radius: 25px;
+
+  }
+  .btn-class{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+.main-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 20px 20px 20px;
+}
+.styler-div{
+    display: flex; 
+    align-items: center;
+}
+.third-div{
+    background: #FFF9F4;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    min-height: 37rem;
+
+}
+.h1-third{
+    text-align: center;
+    margin: auto;
+    width: 48%;
+    padding-top: 40px;
+}
+
+.cards{
+    background-color: white;
+    width: 160px;
+    height: 160px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 7px;
+    text-align: center;
+    padding: 20px;
+    gap: 5px;
+
+}
+.flex-div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    gap: 15px;
+    margin: auto;
+    width: 85%;
+}
+.para-tooth{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    
+}
+.para-tooth span{
+    color: #e9811f;
+    margin-left: 10px;
+    margin-right: 10px;
+}

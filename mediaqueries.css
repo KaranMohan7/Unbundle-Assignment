@@ -1,0 +1,170 @@
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .sub-span{
+        font-size: 10px;
+    }
+    .nav-head{
+        font-size: 12px;
+    }
+    .appoint-btn{
+        width: 150px;
+        font-size: 10px;
+        padding: 10px 10px 10px 10px;
+    }
+    .nav-items{
+        gap: 6px;
+    }
+    .btn-div{
+        gap: 10px;
+    }
+    .help-btn{
+        width: 100px;
+        padding: 8px 5px 8px 5px;
+        font-size: 15px;
+    }
+    .header-div-1 {
+        font-size: 45px;
+    }
+    .image-1{
+        width: 25rem;
+        position: relative;
+        top: 88px;
+    
+    }
+    .vertical-line{
+        display: none;
+       }
+       .below-header{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        padding-top: 10px
+    } 
+    .below-text{
+        text-align: center;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+    .headingnav{
+        font-size: 1.8rem;
+    }
+    .sub-span{
+        font-size: 10px;
+    }
+    .nav-head{
+        font-size: 12px;
+    }
+    .appoint-btn{
+        width: 100px;
+        font-size: 10px;
+        padding: 10px 10px 10px 10px;
+    }
+    .nav-items{
+        gap: 6px;
+    }
+    .btn-div{
+        gap: 10px;
+    }
+    .help-btn{
+        width: 100px;
+        padding: 8px 5px 8px 5px;
+        font-size: 15px;
+    }
+    .header-div-1 {
+        font-size: 45px;
+    }
+    .image-1{
+        width: 23rem;
+        position: relative;
+        top: 105px;
+        margin-right: 14px;
+    }
+    .vertical-line{
+        display: none;
+       }
+       .below-header{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        padding-top: 10px
+    } 
+    .below-text{
+        text-align: center;
+    }
+   
+    
+}
+@media (max-width: 640px) {
+
+    .headingnav{
+        font-size: 1.5rem;
+    }
+    .sub-span{
+        font-size: 8px;
+    }
+    .nav-head{
+        font-size: 8px;
+    }
+    .appoint-btn{
+        width: 100px;
+        font-size: 10px;
+        padding: 10px 10px 10px 10px;
+    }
+    .nav-items{
+        gap: 6px;
+    }
+    .btn-div{
+        gap: 10px;
+    }
+    .help-btn{
+        width: 100px;
+        padding: 8px 5px 8px 5px;
+        font-size: 15px;
+    }
+    .header-div-1 {
+        font-size: 45px;
+        text-align: center;
+    }
+    .header-div-2 {
+        text-align: center;
+    }
+    .header-div-3{
+        text-align: center;
+    }
+    .image-1{
+       display: none;
+    }
+    .header{
+     padding-left: 10px;
+     padding-right: 10px;
+
+    }
+    .header-btn-div{
+        display: flex;
+        justify-content: center;
+    }
+   .nav-items{
+    display: none;
+   }
+   .burger{
+    display: block;
+   }
+   .vertical-line{
+    display: none;
+   }
+   .below-header{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding-top: 10px
+} 
+.below-text{
+    text-align: center;
+}
+.para-tooth{
+    margin-top: 20px;
+}
+
+
+}
