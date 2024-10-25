@@ -19,6 +19,15 @@ body {
 }
 .logo {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo-span{
+  font-family: 'Helvetica';
+   color: black; 
+   font-weight: bolder; 
+   font-size: 40px;
 }
 .headingnav {
   color: #e9811f;
